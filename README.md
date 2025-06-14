@@ -58,4 +58,5 @@ Video_Link:https://youtu.be/WL4eDpiMbMc
 
 
   **Geliştirici:** Ali Doran
+  **AI Sohbet Linki:** https://chatgpt.com/share/684de467-d8ac-8000-a309-f33f475f46d6  
   
