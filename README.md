@@ -38,6 +38,7 @@ Bu proje Web Tabanlı Programlama dersi kapsamında, üniversite ve topluluk ort
 
 - **İstatistikler ve Raporlama:**
   - Admin panelinde sistem genel istatistikleri  
+    ![image](https://github.com/user-attachments/assets/d08c87b8-a28c-4029-8823-7fbf9e63d693)  
 
 - **Modern ve Responsive Arayüz:**
   - Bootstrap ve özel CSS ile mobil uyumlu, modern tasarım
