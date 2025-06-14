@@ -1,6 +1,8 @@
 # Kulüp Etkinlik ve Sertifika Sistemi
 
-Bu proje Web Tabanlı Programlama dersi kapsamında, üniversite ve topluluk ortamlarında kulüp etkinliklerinin ve sertifikalarının yönetimini kolaylaştırmak için geliştirilmiş bir web uygulamasıdır. Kullanıcılar, kulüplere başvurabilir, etkinliklere katılabilir ve kazandıkları sertifikaları görüntüleyebilirler. Yönetici ve kulüp yöneticileri için gelişmiş yönetim panelleri sunar.
+Bu proje Web Tabanlı Programlama dersi kapsamında, üniversite ve topluluk ortamlarında kulüp etkinliklerinin ve sertifikalarının yönetimini kolaylaştırmak için geliştirilmiş bir web uygulamasıdır. Kullanıcılar, kulüplere başvurabilir, etkinliklere katılabilir ve kazandıkları sertifikaları görüntüleyebilirler. Yönetici ve kulüp yöneticileri için gelişmiş yönetim panelleri sunar.  
+
+Video_Link:https://youtu.be/WL4eDpiMbMc
 
 ## Özellikler
 
