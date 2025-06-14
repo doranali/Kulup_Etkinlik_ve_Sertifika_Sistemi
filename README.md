@@ -57,6 +57,6 @@ Video_Link:https://youtu.be/WL4eDpiMbMc
   ![image](https://github.com/user-attachments/assets/ef9d9162-94a3-4e00-8168-034b9ef05185)  
 
 
-  **Geliştirici:** Ali Doran
+  **Geliştirici:** Ali Doran  
   **AI Sohbet Linki:** https://chatgpt.com/share/684de467-d8ac-8000-a309-f33f475f46d6  
   
