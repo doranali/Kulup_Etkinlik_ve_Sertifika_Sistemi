@@ -1,0 +1,271 @@
+/* style.css */
+/* Web sitemizin genel görünümünü ve Bootstrap'tan farklılaştırmak istediğim yerleri düzenlerim. */
+
+/* Modern ve Responsive Tasarım */
+:root {
+    --primary-color: #4a90e2;
+    --secondary-color: #2c3e50;
+    --success-color: #2ecc71;
+    --danger-color: #e74c3c;
+    --warning-color: #f1c40f;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --border-radius: 8px;
+    --box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Genel Sayfa Ayarları */
+body {
+    background-color: #f5f6fa;
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color);
+    line-height: 1.6;
+}
+
+/* Navbar Stilleri */
+.navbar {
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: var(--primary-color) !important;
+}
+
+.nav-link {
+    color: var(--secondary-color) !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Container ve Card Stilleri */
+.container {
+    padding: 2.5rem 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-weight: 600;
+}
+
+/* Form Elemanları */
+.form-control {
+    border-radius: var(--border-radius);
+    border: 1px solid #e1e1e1;
+    padding: 1rem 1.2rem;
+    transition: border-color 0.3s ease;
+    font-size: 1.05rem;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+}
+
+/* Butonlar */
+.btn {
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: darken(var(--primary-color), 10%);
+    transform: translateY(-2px);
+}
+
+.btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+}
+
+/* Liste Grupları */
+.list-group-item {
+    border: none;
+    margin-bottom: 0.5rem;
+    border-radius: var(--border-radius) !important;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Tablolar */
+.table {
+    background-color: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 1rem;
+}
+
+.table td {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+/* Alert Mesajları */
+.alert {
+    border-radius: var(--border-radius);
+    border: none;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Dashboard Kartları */
+.dashboard-card {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+.dashboard-card h5 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem 0.5rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .table-responsive {
+        border-radius: var(--border-radius);
+    }
+    
+    .dashboard-card,
+    .event-card,
+    .certificate-card {
+        padding: 1.2rem 0.7rem;
+    }
+    
+    .form-control {
+        padding: 0.8rem 0.7rem;
+    }
+}
+
+/* Animasyonlar */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Özel Bileşenler */
+.event-card {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+.event-card h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.event-card .date {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+.certificate-card {
+    background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+    border-radius: var(--border-radius);
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+/* Loading Spinner */
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Başlıklar */
+h2, h3, h4, h5, h6 {
+    color: #343a40;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+    padding-left: 0.2rem;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 10px;
+}
+
+/* Özel Durumlar */
+.text-danger {
+    color: #dc3545 !important;
+}
+.text-danger:hover {
+    color: #b02a37 !important;
+}
+
+/* Sertifika linkleri için */
+.certificate-link {
+    font-weight: bold;
+}
+
+/* Form grupları arası boşluk */
+.form-group, .mb-3, .mb-4 {
+    margin-bottom: 1.5rem !important;
+}
